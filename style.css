@@ -2,16 +2,51 @@
 
 
 /*Navigation Container*/
+article {
+	background-color: #333;
+	display: inline;
+	position: relative;
+	width: 33.3%;
+}
+
+.cool-box-1 {
+	background-color: #9CDACD;
+}
+
+.cool-box-2 {
+	background-color: #56CFEE;
+}
+
 .nav-container {
 	display: flex;
+	flex-flow: row wrap;
 	width: 60%;
 }
 
-article {
+.resume-box {
+	flex: 2;
+}
+
+.warm-box-1 {
+	background-color: #FEF359;
+}
+
+.warm-box-2 {
+	background-color: #F78C02;
+}
+
+.warm-box-3 {
+	background-color: #B52E3D;
 }
 
 /*Image Container*/
 .profile-images {
+	background: teal;
+	display: inline;
+	float: right;
 	height: 100%;
+	position: relative;
 	width: 40%;
+	top: 0;
+	right: 0;
 }
