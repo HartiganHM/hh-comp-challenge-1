@@ -1,0 +1,17 @@
+/*Base Styling*/
+
+
+/*Navigation Container*/
+.nav-container {
+	display: flex;
+	width: 60%;
+}
+
+article {
+}
+
+/*Image Container*/
+.profile-images {
+	height: 100%;
+	width: 40%;
+}
