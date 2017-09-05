@@ -113,6 +113,7 @@ p {
 .profile-images {
 	background-image: url('images/rick_sanchez.png');
 	background-size: cover;
+	display: flex;
 	float: right;
 	position: absolute;
 	right: 0;
@@ -120,3 +121,47 @@ p {
 	width: 40vw;
 }
 
+/*Buttons*/
+.scroll-container {
+	align-items: center;
+	align-self: center;
+	display: flex;
+	height: 5vh;
+	justify-content: space-between;
+	padding: 1vw;
+	width: 40vw;
+}
+
+.scroll-button {
+	color: #FFF;
+	background-color: #000;
+	border: 2px solid #FFF;
+	border-radius: 5vh;
+	font-family: 'Open Sans', Arial, sans-serif;
+	height: 5vh;
+	opacity: 0.55;
+	width: 5vh;
+}
+
+.scroll-button:hover {
+	opacity: 0.8;
+}
+
+.scroll-left {
+	align-self: flex-start;
+}
+
+.scroll-right {
+	align-self: flex-end;
+}
+
+.selector-button {
+	height: 1vw;
+	width: 1vw;
+}
+
+.selector-container {
+	display: flex;
+	flex-direction: row;
+	height: 2vh;
+}
