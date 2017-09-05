@@ -1,52 +1,113 @@
 /*Base Styling*/
+body {
+	box-sizing: border-box;
+	color: #FFF;
+	position: relative;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+}
 
+section {
+	height: 100vh;
+}
 
-/*Navigation Container*/
+/********Navigation Container (Left/Top Side)********/
+
+/*Navigation Layout*/
 article {
 	background-color: #333;
-	display: inline;
+	height: calc(100vh / 3);
 	position: relative;
-	width: 33.3%;
-}
-
-.cool-box-1 {
-	background-color: #9CDACD;
-}
-
-.cool-box-2 {
-	background-color: #56CFEE;
+	width: 20vw;
 }
 
 .nav-container {
+	align-items: stretch;
 	display: flex;
 	flex-flow: row wrap;
-	width: 60%;
+	justify-content: flex-start;
+	width: 60vw;
 }
 
-.resume-box {
-	flex: 2;
+/*Coloring*/
+.blue {
+	background-color: #26AECB;
 }
 
-.warm-box-1 {
-	background-color: #FEF359;
+.onyx-gray {
+	background-color: #343E3D;
 }
 
-.warm-box-2 {
-	background-color: #F78C02;
+.red {
+	background-color: #E84855;
 }
 
-.warm-box-3 {
-	background-color: #B52E3D;
+.seafoam {
+	background-color: #A9E5BB;
 }
+
+.yellow {
+	background-color: #F9DC5C;
+}
+
+
+/*Greatness Box*/
+.button-box {
+	margin-left: 2vw;
+}
+
+h1 {
+	font-family: 'Indie Flower', 'Open Sans', arial, sans-serif;
+	font-size: 5vh;
+	margin: 7vh 2vw .5vh;
+	text-transform: uppercase;
+}
+
+h2 {
+	margin: 0 auto 10px;
+}
+
+p {
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 1.75vh;
+	font-weight: 300;
+	line-height: 160%;
+	margin: 0 2vw;
+	text-transform: none;
+}
+
+#greatness-box {
+	width: 40vw;
+}
+
+.greatness-button {
+	background-color: transparent;
+	border: 2px solid #FFF;
+	color: #FFF;
+	font-size: 1.5vh;
+	margin: 1.25vh 1vw 1.25vh 0vw;
+	text-transform: uppercase;
+	width: 20%;
+}
+
+/*Square Boxes*/
+.square-box {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+/********Image Container (Right/Bottom Side)********/
 
 /*Image Container*/
 .profile-images {
-	background: teal;
-	display: inline;
+	background-image: url('images/rick_sanchez.png');
+	background-size: cover;
 	float: right;
-	height: 100%;
-	position: relative;
-	width: 40%;
-	top: 0;
+	position: absolute;
 	right: 0;
+	top: 0;
+	width: 40vw;
 }
+
