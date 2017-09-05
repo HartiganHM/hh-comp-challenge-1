@@ -54,6 +54,7 @@ article {
 
 /*Greatness Box*/
 .button-box {
+	display: flex;
 	margin-left: 2vw;
 }
 
@@ -62,10 +63,6 @@ h1 {
 	font-size: 5vh;
 	margin: 7vh 2vw .5vh;
 	text-transform: uppercase;
-}
-
-h2 {
-	margin: 0 auto 10px;
 }
 
 p {
@@ -82,19 +79,31 @@ p {
 }
 
 .greatness-button {
+	align-items: center;
 	background-color: transparent;
 	border: 2px solid #FFF;
 	color: #FFF;
+	display: flex;
 	font-size: 1.5vh;
+	justify-content: space-around;
 	margin: 1.25vh 1vw 1.25vh 0vw;
 	text-transform: uppercase;
 	width: 20%;
 }
 
+.greatness-image {
+	width: 1.5vw;
+}
+
 /*Square Boxes*/
+.box-icon {
+	width: 8vw;
+	margin: 1vh 1vw;
+}
 .square-box {
 	align-items: center;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 }
 
