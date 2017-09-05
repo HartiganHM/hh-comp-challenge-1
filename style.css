@@ -1,5 +1,6 @@
 /*Base Styling*/
 body {
+	background-color: #FFF;
 	box-sizing: border-box;
 	color: #FFF;
 	position: relative;
@@ -35,20 +36,40 @@ article {
 	background-color: #26AECB;
 }
 
+.blue:hover {
+	background-color: #1C7F94;
+}
+
 .onyx-gray {
 	background-color: #343E3D;
+}
+
+.onyx-gray:hover {
+	background-color: #2B3332;
 }
 
 .red {
 	background-color: #E84855;
 }
 
+.red:hover {
+	background-color: #BE3B46;
+}
+
 .seafoam {
 	background-color: #9AD1AA;
 }
 
+.seafoam:hover {
+	background-color: #7FAC8C;
+}
+
 .yellow {
 	background-color: #F9DC5C;
+}
+
+.yellow:hover {
+	background-color: #CCB54C;
 }
 
 
@@ -75,6 +96,7 @@ p {
 }
 
 #greatness-box {
+	background-color: #26AECB;
 	width: 40vw;
 }
 
@@ -88,7 +110,11 @@ p {
 	justify-content: space-around;
 	margin: 1.25vh 1vw 1.25vh 0vw;
 	text-transform: uppercase;
-	width: 20%;
+	width: 10vw;
+}
+
+.greatness-button:hover {
+	background-color: #1C7F94;
 }
 
 .greatness-image {
@@ -113,8 +139,6 @@ p {
 .profile-images {
 	background-image: url('images/rick_sanchez.png');
 	background-size: cover;
-	display: flex;
-	float: right;
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -128,7 +152,7 @@ p {
 	display: flex;
 	height: 5vh;
 	justify-content: space-between;
-	padding: 1vw;
+	margin-top: 50vh;
 	width: 40vw;
 }
 
@@ -140,6 +164,7 @@ p {
 	font-family: 'Open Sans', Arial, sans-serif;
 	height: 5vh;
 	opacity: 0.55;
+	margin: 0 1vw;
 	width: 5vh;
 }
 
@@ -156,12 +181,21 @@ p {
 }
 
 .selector-button {
+	background-color: #FFF;
+	border: 0.5px solid #999;
+	border-radius: 1vw;
 	height: 1vw;
+	margin: 0.25vh 0.25vw 0 0;
+	opacity: 0.5;
 	width: 1vw;
+}
+
+.selector-button:hover {
+	opacity: 1;
 }
 
 .selector-container {
 	display: flex;
-	flex-direction: row;
+	flex-direction: row-reverse;
 	height: 2vh;
 }
