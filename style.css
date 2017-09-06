@@ -192,7 +192,7 @@ p {
 	height: 2vh;
 }
 
-/*Media Queries*/
+/**********Media Queries***********/
 
 @media screen and (max-width:550px) {
 	article {
