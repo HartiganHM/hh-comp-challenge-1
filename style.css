@@ -200,6 +200,10 @@ p {
 		width: 50vw;
 	}
 
+	body {
+		background-color: #666;
+	}
+
 	.box-icon {
 		width: 25vw;
 	}
@@ -233,6 +237,10 @@ p {
 		position: relative;
 		top: 50vh;
 		width: 100vw;
+	}
+
+	#odd-box {
+		align-self: right;
 	}
 
 	p {
