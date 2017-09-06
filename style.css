@@ -145,15 +145,11 @@ p {
 	position: absolute;
 	right: 0;
 	top: 0;
-	width: 40vw;
 }
 
 /*Buttons*/
 .scroll-container {
-	align-items: center;
-	align-self: center;
 	display: flex;
-	height: 5vh;
 	justify-content: space-between;
 	margin-top: 50vh;
 	width: 40vw;
@@ -175,14 +171,6 @@ p {
 	opacity: 0.8;
 }
 
-.scroll-left {
-	align-self: flex-start;
-}
-
-.scroll-right {
-	align-self: flex-end;
-}
-
 .selector-button {
 	background-color: #FFF;
 	border: 0.5px solid #999;
@@ -201,4 +189,52 @@ p {
 	display: flex;
 	flex-direction: row-reverse;
 	height: 2vh;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width:550px) {
+	article {
+		height: 50vw;
+		width: 50vw;
+	}
+
+	.button-box {
+		margin: 0 1vw;
+	}
+
+	#greatness-box {
+		width: 100vw;
+	}
+
+	.greatness-button {
+		width: 50vw;
+	}
+
+	.nav-container {
+		display: flex;
+		flex-direction: row;
+		position: relative;
+		top: 50vh;
+		width: 100vw;
+	}
+
+	.profile-images {
+		position: absolute;
+	}
+
+	.selector-button {
+		height: 1vh;
+		width: 0.5vh;
+	}
+
+	.scroll-container {
+		margin-top: 25vh;
+		width: 100vw;
+	}
+
+	section {
+		height: 50vh;
+		width: 100vw;
+	}
 }
