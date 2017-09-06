@@ -234,13 +234,30 @@ p {
 	}
 
 	.nav-container {
+		background-image: url('images/Rick-1.png');
+		background-position: bottom right 10px;
+		background-repeat: no-repeat;
+		background-size: 42%;
+		height: 140vh;
 		position: relative;
 		top: 50vh;
 		width: 100vw;
 	}
 
-	#odd-box {
-		align-self: right;
+	#odd-box-1 {
+		order: 1;
+	}
+
+	#odd-box-2 {
+		order: 2;
+	}
+
+	#odd-box-3 {
+		order: 3;
+	}
+
+	#odd-box-4 {
+		order: 4;
 	}
 
 	p {
