@@ -9,6 +9,6 @@ In my version of the layout, I used Rick Sanchez from the TV show *Rick and Mort
 
 For the responsive layout, I moved the profile image to the top in a landscape layout and placed the other 'profile boxes' beneath it. Due to the arrangement of my original boxes, I had two yellow ones that blended into one another, so I re-ordered them to maintain a more cohesive color scheme. For the empty space at the bottom-right corner, I added a floating image of Rick so the void was more interesting when seen on the mobile layout.
 
-![](https://imgur.com/tH0tdki)
+!(https://imgur.com/tH0tdki)
 
 ![Hugh Hartigan Static Comp Challenge 1](https://imgur.com/D3QrpCF)
