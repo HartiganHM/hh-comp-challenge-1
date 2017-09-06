@@ -13,7 +13,7 @@ section {
 	height: 100vh;
 }
 
-/********Navigation Container (Left/Top Side)********/
+/********Navigation Container (Left/Bottom Side)********/
 
 /*Navigation Layout*/
 article {
@@ -135,7 +135,7 @@ p {
 	text-align: center;
 }
 
-/********Image Container (Right/Bottom Side)********/
+/********Image Container (Right/Top Side)********/
 
 /*Image Container*/
 .profile-images {
@@ -186,11 +186,11 @@ p {
 .selector-button {
 	background-color: #FFF;
 	border: 0.5px solid #999;
-	border-radius: 1vw;
-	height: 1vw;
+	border-radius: 1vh;
+	height: 2vh;
 	margin: 0.25vh 0.25vw 0 0;
 	opacity: 0.5;
-	width: 1vw;
+	width: 1vh;
 }
 
 .selector-button:hover {
