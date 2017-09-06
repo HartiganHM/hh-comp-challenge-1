@@ -140,7 +140,7 @@ p {
 
 /*Image Container*/
 .profile-images {
-	background-image: url('images/rick-and-morty-wallpaper.jpg');
+	background-image: url('Images/rick-and-morty-wallpaper.jpg');
 	background-position: center;
 	background-size: cover;
 	position: absolute;
@@ -234,7 +234,7 @@ p {
 	}
 
 	.nav-container {
-		background-image: url('images/Rick-1.png');
+		background-image: url('Images/Rick-1.png');
 		background-position: bottom right 10px;
 		background-repeat: no-repeat;
 		background-size: 42%;
