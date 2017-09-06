@@ -1,17 +1,262 @@
 /*Base Styling*/
-
-
-/*Navigation Container*/
-.nav-container {
-	display: flex;
-	width: 60%;
+body {
+	background-color: #FFF;
+	box-sizing: border-box;
+	color: #FFF;
+	position: relative;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
 }
 
+section {
+	height: 100vh;
+}
+
+/********Navigation Container (Left/Bottom Side)********/
+
+/*Navigation Layout*/
 article {
+	background-color: #333;
+	height: calc(100vh / 3);
+	position: relative;
+	width: 20vw;
 }
+
+.nav-container {
+	align-items: stretch;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	width: 60vw;
+}
+
+/*Coloring*/
+.blue {
+	background-color: #26AECB;
+}
+
+.blue:hover {
+	background-color: #1C7F94;
+}
+
+.onyx-gray {
+	background-color: #343E3D;
+}
+
+.onyx-gray:hover {
+	background-color: #2B3332;
+}
+
+.red {
+	background-color: #E84855;
+}
+
+.red:hover {
+	background-color: #BE3B46;
+}
+
+.seafoam {
+	background-color: #9AD1AA;
+}
+
+.seafoam:hover {
+	background-color: #7FAC8C;
+}
+
+.yellow {
+	background-color: #F9DC5C;
+}
+
+.yellow:hover {
+	background-color: #CCB54C;
+}
+
+
+/*Greatness Box*/
+.button-box {
+	display: flex;
+	margin-left: 2vw;
+}
+
+h1 {
+	font-family: 'Indie Flower', 'Open Sans', arial, sans-serif;
+	font-size: 3vw;
+	margin: 7vh 2vw .5vh;
+	text-transform: uppercase;
+}
+
+p {
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 1.75vh;
+	font-weight: 300;
+	line-height: 160%;
+	margin: 0 2vw;
+	text-transform: none;
+}
+
+#greatness-box {
+	background-color: #26AECB;
+	width: 40vw;
+}
+
+.greatness-button {
+	align-items: center;
+	background-color: transparent;
+	border: 2px solid #FFF;
+	color: #FFF;
+	display: flex;
+	font-size: 0.75vw;
+	justify-content: center;
+	margin: 1.25vh 1vw 1.25vh 0vw;
+	text-transform: uppercase;
+	width: 9vw;
+}
+
+.greatness-button:hover {
+	background-color: #1C7F94;
+}
+
+.greatness-image {
+	padding: 0.5vw;
+	width: 1.5vw;
+}
+
+/*Square Boxes*/
+.box-icon {
+	width: 8vw;
+	margin: 1vh 1vw;
+}
+
+.square-box {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+/********Image Container (Right/Top Side)********/
 
 /*Image Container*/
 .profile-images {
-	height: 100%;
-	width: 40%;
+	background-image: url('images/rick-and-morty-wallpaper.jpg');
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+/*Buttons*/
+.scroll-container {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50vh;
+	width: 40vw;
+}
+
+.scroll-button {
+	color: #FFF;
+	background-color: #000;
+	border: 2px solid #FFF;
+	border-radius: 5vh;
+	font-family: 'Open Sans', Arial, sans-serif;
+	height: 5vh;
+	opacity: 0.55;
+	margin: 0 1vw;
+	width: 5vh;
+}
+
+.scroll-button:hover {
+	opacity: 0.8;
+}
+
+.selector-button {
+	background-color: #FFF;
+	border: 0.5px solid #999;
+	border-radius: 1vh;
+	height: 2vh;
+	margin: 0.25vh 0.25vw 0 0;
+	opacity: 0.5;
+	width: 1vh;
+}
+
+.selector-button:hover {
+	opacity: 1;
+}
+
+.selector-container {
+	display: flex;
+	flex-direction: row-reverse;
+	height: 2vh;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width:550px) {
+	article {
+		height: 50vw;
+		width: 50vw;
+	}
+
+	.box-icon {
+		width: 25vw;
+	}
+
+	.button-box {
+		justify-content: space-around;
+		margin: 0;
+	}
+
+	#greatness-box {
+		width: 100vw;
+	}
+
+	.greatness-button {
+		font-size: 2.5vh;
+		margin: 1vh 0;
+		padding: 1vh;
+		width: 45vw;
+	}
+
+	.greatness-image {
+	width: 10vw;
+	}
+
+	h1 {
+		font-size: 7vh;
+		margin: 1vh 3vw;
+	}
+
+	.nav-container {
+		position: relative;
+		top: 50vh;
+		width: 100vw;
+	}
+
+	p {
+		font-size: 1.75vh;
+		line-height: 120%;
+		margin: 1vh 3vw;
+	}
+
+	.profile-images {
+		position: absolute;
+	}
+
+	.selector-button {
+		height: 2vh;
+		width: 1vh;
+	}
+
+	.scroll-container {
+		margin-top: 25vh;
+		width: 100vw;
+	}
+
+	section {
+		height: 50vh;
+		width: 100vw;
+	}
 }
